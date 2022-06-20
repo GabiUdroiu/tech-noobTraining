@@ -24,7 +24,7 @@ public class SoupSign implements Listener {
               if(sign.getLine(1).contains(ChatColor.translateAlternateColorCodes('&',"&8[&3Soups&8]"))) {
              	Player p = e.getPlayer();
             	Inventory soup = Bukkit.createInventory((InventoryHolder)p, 36, "Soups");
-            		for (int i = 35; i >= 0; i--)
+            		for (int i = 36; i > 0; i--)
             	    soup.setItem(i, new ItemStack(Material.MUSHROOM_SOUP)); 
             	 p.openInventory(soup);                            
                  }
