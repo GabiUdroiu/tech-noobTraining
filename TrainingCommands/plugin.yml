@@ -1,0 +1,13 @@
+name: SoupTrainingCommands
+main: me.gabi.Main
+version: 1.0
+author: Gpbi
+commands:
+  damager:
+    description: Damage player command
+    usage: /damager <damage>
+    permission: myplugin.damager
+permissions:
+  myplugin.damager:
+    default: op
+    description: Allow use damager command
